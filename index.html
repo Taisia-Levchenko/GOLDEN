@@ -1,69 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Golden</title>
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+    />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps&family=Montserrat:wght@400;700&family=Roboto+Slab&display=swap" rel="stylesheet">
-</head>
-<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps&family=Montserrat:wght@400;700&family=Roboto+Slab&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <header class="header">
+      <div class="container">
         <!-- До основної сторінки посилання в логотипі -->
         <a href="./index.html" class="logo">Golden</a>
 
         <nav class="navigation">
-            <ul class="nav-list">
-                <li class="nav-list_item">
-                    <a href="#" class="nav-list_link">Home</a>
-                </li>
-                <li class="nav-list_item">
-                    <a href="#" class="nav-list_link">Services</a>
-                </li>
-                <li class="nav-list_item">
-                    <a href="#" class="nav-list_link">Portfolio</a>
-                </li>
-                <li class="nav-list_item">
-                    <a href="#" class="nav-list_link">About</a>
-                </li>
-                <li class="nav-list_item">
-                    <a href="#" class="nav-list_link">Contact</a>
-                </li>
-            </ul>
+          <ul class="nav-list">
+            <li class="nav-list_item">
+              <a href="#" class="nav-list_link">Home</a>
+            </li>
+            <li class="nav-list_item">
+              <a href="#" class="nav-list_link">Services</a>
+            </li>
+            <li class="nav-list_item">
+              <a href="#" class="nav-list_link">Portfolio</a>
+            </li>
+            <li class="nav-list_item">
+              <a href="#" class="nav-list_link">About</a>
+            </li>
+            <li class="nav-list_item">
+              <a href="#" class="nav-list_link">Contact</a>
+            </li>
+          </ul>
         </nav>
+      </div>
     </header>
 
-
     <main class="main">
+      <div class="container">
         <h1 class="main-title">Services</h1>
         <ul class="main-list">
-            <li class="main-list_item">
-                <h4 class="main-list_title">E-Commerce</h4>
-                <p class="main-list_text">Proin iaculis purus consequat sem cure <br>digni ssim. Donec porttitora entum suscipit <br>aenean rhoncus posuere odio in tincidunt.</p>
-            </li>
-            <li class="main-list_item">
-                <h4 class="main-list_title">Responsive Web</h4>
-                <p class="main-list_text">Proin iaculis purus consequat sem cure <br>digni ssim. Donec porttitora entum suscipit <br>aenean rhoncus posuere odio in tincidunt.</p>
-            </li>
-            <li class="main-list_item">
-                <h4 class="main-list_title">Web Security</h4>
-                <p class="main-list_text">Proin iaculis purus consequat sem cure <br>digni ssim. Donec porttitora entum suscipit <br>aenean rhoncus posuere odio in tincidunt.</p>
-            </li>
+          <li class="main-list_item">
+            <h4 class="main-list_title">E-Commerce</h4>
+            <p class="main-list_text">
+              Proin iaculis purus consequat sem cure <br />digni ssim. Donec
+              porttitora entum suscipit <br />aenean rhoncus posuere odio in
+              tincidunt.
+            </p>
+          </li>
+          <li class="main-list_item">
+            <h4 class="main-list_title">Responsive Web</h4>
+            <p class="main-list_text">
+              Proin iaculis purus consequat sem cure <br />digni ssim. Donec
+              porttitora entum suscipit <br />aenean rhoncus posuere odio in
+              tincidunt.
+            </p>
+          </li>
+          <li class="main-list_item">
+            <h4 class="main-list_title">Web Security</h4>
+            <p class="main-list_text">
+              Proin iaculis purus consequat sem cure <br />digni ssim. Donec
+              porttitora entum suscipit <br />aenean rhoncus posuere odio in
+              tincidunt.
+            </p>
+          </li>
         </ul>
+      </div>
     </main>
     <footer class="footer">
+      <div class="container">
         <!-- Заголовок h2 тому що менш важливий -->
         <h2 class="footer-title">Contact us</h2>
         <form class="form">
-            <input type="text" name="username" placeholder="your Name *" required class="form-input">
-            <input type="email" name="email" placeholder="your e-mail *" required class="form-input">
-            <input type="text" name="subject" placeholder="subject" class="form-input">
-            <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Your message *" required class="form-comment"></textarea>
-            <button type="submit" class="form-btn-submit">Send Message</button>
+          <input
+            type="text"
+            name="username"
+            placeholder="your Name *"
+            required
+            class="form-input"
+          />
+          <input
+            type="email"
+            name="email"
+            placeholder="your e-mail *"
+            required
+            class="form-input"
+          />
+          <input
+            type="text"
+            name="subject"
+            placeholder="subject"
+            class="form-input"
+          />
+          <textarea
+            name="comment"
+            id="comment"
+            cols="30"
+            rows="10"
+            placeholder="Your message *"
+            required
+            class="form-comment"
+          ></textarea>
+          <button type="submit" class="form-btn-submit">Send Message</button>
         </form>
+      </div>
     </footer>
-</body>
+  </body>
 </html>

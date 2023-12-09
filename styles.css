@@ -5,6 +5,12 @@
     --project-white: #FFF;
     --placeholder: #BBB;
 }
+.container {
+    width: 972px;
+    padding: 0px 15px;
+    outline: 2px solid red;
+    margin: 0 auto;
+}
 body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400px;
@@ -18,7 +24,14 @@ ul {
 a {
     text-decoration: none;
 }
-
+ul, p, h2, h4 {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    padding-top: 44px;
+    padding-bottom: 91px;
+}
 .logo {
     font-family: 'Bilbo Swash Caps', serif;
     font-size:36px;
@@ -31,6 +44,10 @@ a {
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
+}
+.main .container {
+    padding-bottom: 119px;
+    outline: 2px dotted blue;
 }
 .main-title {
     color:var(--project-black);
@@ -53,9 +70,16 @@ a {
     font-size: 14px;
     text-align: center;
 }
+.footer .container {
+    padding-top: 92px;
+    padding-bottom: 115px;
+    outline: 2px double deeppink;
+}
 .footer {
     background-color: var(--project-black);
+
 }
+
 .footer-title {
     color:var(--project-white);
     text-align: center;
