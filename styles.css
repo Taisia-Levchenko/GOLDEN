@@ -8,7 +8,6 @@
 .container {
     width: 972px;
     padding: 0px 15px;
-    outline: 2px solid red;
     margin: 0 auto;
 }
 body {
@@ -24,9 +23,15 @@ ul {
 a {
     text-decoration: none;
 }
-ul, p, h2, h4 {
+ul, p, h2, h3, h4, h1, button {
     margin: 0;
     padding: 0;
+}
+.header .container {
+    display: flex;
+    /* gap: 285px; */
+    justify-content: space-between;
+    align-items: center;
 }
 .header {
     padding-top: 44px;
@@ -39,6 +44,11 @@ ul, p, h2, h4 {
     color: var(--main-accent);
     letter-spacing: 1.3px;
 }
+.nav-list {
+    display: flex;
+    /* align-items: center; */
+    gap: 10px;
+}
 .nav-list_link {
     color: var(--main-accent);
     font-size: 14px;
@@ -47,7 +57,7 @@ ul, p, h2, h4 {
 }
 .main .container {
     padding-bottom: 119px;
-    outline: 2px dotted blue;
+    
 }
 .main-title {
     color:var(--project-black);
@@ -56,6 +66,12 @@ ul, p, h2, h4 {
     font-weight: 700;
     text-transform: uppercase;
     text-align: center;
+    margin-bottom: 87.5px;
+}
+.main-list {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
 }
 .main-list_title {
     color:var(--project-black);
@@ -73,7 +89,6 @@ ul, p, h2, h4 {
 .footer .container {
     padding-top: 92px;
     padding-bottom: 115px;
-    outline: 2px double deeppink;
 }
 .footer {
     background-color: var(--project-black);
@@ -85,10 +100,22 @@ ul, p, h2, h4 {
     text-align: center;
     text-transform: uppercase;
     font-size: 40px;
+    margin-bottom: 114px;
+}
+.footer-inputs {
+    display: flex;
+    flex-direction: column;
+    height: 214px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* align-items: center; */
+    gap: 28px;
+    margin-bottom: 27px;
 }
 .form-input {
     width: 455px;
     height: 50px;
+    padding: 13px 21px 23px;
 }
 .form-input, .form-comment {
     color:var(--placeholder);
@@ -101,6 +128,7 @@ ul, p, h2, h4 {
     width: 458px;
     height: 212px;
     resize: none;
+    padding: 14px 22px;
 }
 .form-btn-submit {
     height:68px;
@@ -112,4 +140,6 @@ ul, p, h2, h4 {
     font-weight: 700;
     text-transform: uppercase;
     border:none;
+    display: block;
+    margin: 0 auto;
 }
