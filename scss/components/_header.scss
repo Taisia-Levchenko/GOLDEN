@@ -1,0 +1,32 @@
+.header .container {
+    display: flex;
+    /* gap: 285px; */
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header {
+    padding-top: 44px;
+    padding-bottom: 91px;
+}
+
+.logo {
+    font-family: 'Bilbo Swash Caps', serif;
+    font-size: 36px;
+    line-height: 1.14;
+    color: var(--main-accent);
+    letter-spacing: 1.3px;
+}
+
+.nav-list {
+    display: flex;
+    /* align-items: center; */
+    gap: 10px;
+}
+
+.nav-list_link {
+    color: var(--main-accent);
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}

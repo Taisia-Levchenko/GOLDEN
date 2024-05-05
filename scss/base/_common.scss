@@ -1,0 +1,32 @@
+.container {
+    width: 972px;
+    padding: 0px 15px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400px;
+    font-style: normal;
+    line-height: normal;
+    color: var(--main-text);
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+p,
+h2,
+h3,
+h4,
+h1,
+button {
+    margin: 0;
+    padding: 0;
+}
