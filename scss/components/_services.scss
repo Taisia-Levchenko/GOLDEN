@@ -1,59 +1,55 @@
-.main .container {
+.main {
+  .container {
     padding-bottom: 119px;
-}
-
-.main-title {
-    color: var(--project-black);
+  }
+  &-title {
+    color: getColor("project-black");
     font-size: 40px;
     line-height: 1.87;
     font-weight: 700;
     text-transform: uppercase;
     text-align: center;
     margin-bottom: 93.5px;
+  }
 }
-
 .main-list {
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    gap: 26px;
-}
-
-.main-list_item::before {
-    content: "";
-    display: block;
-    background-position: center;
-    border-radius: 50%;
-    border: 3px solid var(--main-accent);
-    background-repeat: no-repeat;
-    width: 70px;
-    height: 70px;
-    margin: 0 auto;
-}
-
-.main-list_item:nth-child(1)::before {
-    background-image: url(/images/bin.svg);
-}
-
-.main-list_item:nth-child(2)::before {
-    background-image: url(/images/computer.svg);
-}
-
-.main-list_item:nth-child(3)::before {
-    background-image: url(/images/lock.svg);
-}
-
-.main-list_title {
-    color: var(--project-black);
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 26px;
+  &__item {
+    &::before {
+      content: "";
+      display: block;
+      background-position: center;
+      border-radius: 50%;
+      border: 3px solid getColor("main-accent");
+      background-repeat: no-repeat;
+      width: 70px;
+      height: 70px;
+      margin: 0 auto;
+    }
+    &:nth-child(1)::before {
+      background-image: url(/images/bin.svg);
+    }
+    &:nth-child(2)::before {
+      background-image: url(/images/computer.svg);
+    }
+    &:nth-child(3)::before {
+      background-image: url(/images/lock.svg);
+    }
+  }
+  &__title {
+    color: getColor("project-black");
     font-size: 18px;
     font-weight: 700;
     line-height: 4.17;
     text-align: center;
-}
-
-.main-list_text {
-    color: var(--main-text);
-    font-family: 'Roboto Slab', serif;
+  }
+  &__text {
+    color: getColor("main-text");
+    font-family: "Roboto Slab", serif;
     font-size: 14px;
     text-align: center;
+  }
 }
