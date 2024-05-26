@@ -1,4 +1,4 @@
-.footer-inputs {
+.form__footer-inputs {
   display: flex;
   flex-direction: column;
   height: 214px;
@@ -7,27 +7,27 @@
   /* align-items: center; */
   gap: 28px;
   margin-bottom: 27px;
-  .form-input,
-  .form-comment {
+  .form__input,
+  .form__comment {
     color: getColor("place-holder");
     font-family: "Montserrat", sans-serif;
     font-size: 14px;
     font-weight: 700;
     text-transform: uppercase;
   }
-  .form-input {
+  .form__input {
     width: 455px;
     height: 50px;
     padding: 13px 21px 23px;
   }
-  .form-comment {
+  .form__comment {
     width: 458px;
     height: 212px;
     resize: none;
     padding: 14px 22px;
   }
 }
-.form-btn__submit {
+.form__btn-submit {
   height: 68px;
   width: 242px;
   background-color: getColor("main-accent");

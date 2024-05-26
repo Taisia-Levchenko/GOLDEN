@@ -64,7 +64,7 @@ button {
 .main .container {
   padding-bottom: 119px;
 }
-.main-title {
+.main__title {
   color: #222;
   font-size: 40px;
   line-height: 1.87;
@@ -121,7 +121,7 @@ button {
   padding-top: 92px;
   padding-bottom: 115px;
 }
-.footer-title {
+.footer__title {
   color: #FFF;
   text-align: center;
   text-transform: uppercase;
@@ -129,7 +129,7 @@ button {
   margin-bottom: 114px;
 }
 
-.footer-inputs {
+.form__footer-inputs {
   display: flex;
   flex-direction: column;
   height: 214px;
@@ -139,26 +139,26 @@ button {
   gap: 28px;
   margin-bottom: 27px;
 }
-.footer-inputs .form-input,
-.footer-inputs .form-comment {
+.form__footer-inputs .form__input,
+.form__footer-inputs .form__comment {
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
   font-weight: 700;
   text-transform: uppercase;
 }
-.footer-inputs .form-input {
+.form__footer-inputs .form__input {
   width: 455px;
   height: 50px;
   padding: 13px 21px 23px;
 }
-.footer-inputs .form-comment {
+.form__footer-inputs .form__comment {
   width: 458px;
   height: 212px;
   resize: none;
   padding: 14px 22px;
 }
 
-.form-btn__submit {
+.form__btn-submit {
   height: 68px;
   width: 242px;
   background-color: #FED136;
